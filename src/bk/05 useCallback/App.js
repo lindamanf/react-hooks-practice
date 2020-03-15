@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Form from "./component/Form";
+import WrapComponent from "./component/WrapComponent";
 
 function App() {
   return (
     <div className="App">
-      <h1>Custom Hook</h1>
-      <Form />
+      <WrapComponent />
     </div>
   );
 }

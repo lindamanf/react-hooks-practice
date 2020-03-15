@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Form from "./component/Form";
+import Check from "./component/Check";
 
 function App() {
   return (
     <div className="App">
-      <h1>Custom Hook</h1>
-      <Form />
+      <Check />
     </div>
   );
 }
